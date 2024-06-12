@@ -1,0 +1,25 @@
+*
+{ 
+    font-family: sans-serif;
+}
+
+img
+{
+    border-radius: 20px 0;
+}
+
+h2
+{
+    border-bottom: 2px solid black;
+    width: 185px;
+}
+
+li
+{
+    font-size: 20px;  
+}
+
+span
+{
+    font-weight: bold;
+}
