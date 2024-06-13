@@ -11,7 +11,7 @@
             font-family: sans-serif;
         }
 
-        table,th,td,tr{
+        table,th,td,tr, form{
             border: 1px solid black;
         }
     </style>
@@ -113,5 +113,63 @@
         </tr>
 
     </table>
+
+    <h2>Apresentação Formulários</h2>       
+
+    <form>
+
+        <label for="meuID">
+            Rótulo da informação a ser inserida
+        </label>
+        <br>
+        <input type="text" id="meuID">
+        
+        <br>
+        <label for="numero">
+            Rótulo para números
+        </label>
+        <br>    
+        <input type="number" id="numero" value="1000">
+
+        <br>
+        <label for="email">Rótulo para e-mail</label>
+        <br>
+        <input type="email" name="" id="email" placeholder="exemplo@gmail.com">
+
+        <br>
+        <label for="senha">Rótulo para Senha</label>
+        <br>
+        <input type="password" name="" id="senha">
+
+        <br>
+        <label for="">Exemplo Caixa de Seleção</label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
+        <label for="f">Loja Departamento Feminino</label>
+        <br>
+
+        <input type="checkbox" name="selecao" id="m" value="LojaMasculino">
+        <label for="m">Loja Departamento Masculino</label>
+        <br>
+        <label for="">Exemplo de seleção única</label>
+        <br>
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">Primeira opção</label>
+        <input type="radio" name="selecaoUnica" id="dois" value="2">
+        <label for="dois">Segunda opção</label>
+
+        <br>
+        <label for="testeSelect">Seleção por lista</label>
+        <br>
+        <select name="testeSelect" id="testeSelect">
+            <option value="1" disabled>Um</option>
+            <option value="2">Dois</option>
+            <option value="3">Três</option>
+        </select>
+
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
+
+    </form>
 </body>
-</html>
+</html> 
