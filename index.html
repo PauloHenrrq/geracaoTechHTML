@@ -10,12 +10,16 @@
         {
             font-family: sans-serif;
         }
+
+        table,th,td,tr{
+            border: 1px solid black;
+        }
     </style>
 </head>
 <body>
     <h1>Aula02</h1>
 
-    <h2>Apresentação das Listas</h2>
+    <h2>Apresentação das Listas</h2>    
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni beatae maiores cumque modi blanditiis architecto unde consectetur delectus iste non?</p>
 
@@ -70,5 +74,44 @@
     Mas pra quem tem pensamento forte<br>
     O impossível é só questão de opinião<br>
     </p>
+
+    <h3>Apresentação Tabelas</h2>
+
+    <table>
+        
+        <!-- título das colunas -->
+        <th>Coluna1</td>
+        <th>Coluna2</td>
+        <th>Coluna3</td>
+        <!-- informações da tabela -->
+        <tr>
+            <td>Info Linha1 Col1</td>
+            <td/td>Info Linha1 Col2</td>
+            <td/td>Info Linha1 Col3</td>
+        </tr>
+
+        <tr>
+            <td/td>Info Linha2 Col1</td>
+            <td/td>Info Linha 2 Col2</td>
+            <td/td>Info Linha 2 Col3</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Info linha3 Col1/2</td>
+            <td>Info linha3 Col3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Info Linha4/5 Col1</td>
+            <td>Info Linha4 Col2</td>
+            <td>Info Linha4 Col3</td>
+        </tr>
+
+        <tr>
+            <td>Info Linha 5 Col1</td>   
+            <td>Info Linha 5 Col2</td>     
+        </tr>
+
+    </table>
 </body>
 </html>
