@@ -1,175 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-        h1, h2, h3
-        {
+        h1,
+        h2,
+        h3 {
             font-family: sans-serif;
         }
 
-        table,th,td,tr, form{
+        table,
+        th,
+        td,
+        tr,
+        form {
             border: 1px solid black;
         }
     </style>
 </head>
+
 <body>
-    <h1>Aula02</h1>
 
-    <h2>Apresentação das Listas</h2>    
+    <header>
+        <img src="./src/IMAGENS/GeracaoTech.jpeg" alt="Logo geração Tech">
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni beatae maiores cumque modi blanditiis architecto unde consectetur delectus iste non?</p>
+        <h1> Geração Tech - Desenvolvimento Front-end</h1>
 
-    <h3>Listas Ordenadas</h3>
+        <nav>
+            <a href="listas">Tags de Listas</a>
+            <a href="linha">Tags de Quebra de Linha</a>
+            <a href="tabelas">Tags Tabelas</a>
+            <a href="formularios">Tags de Formulários</a>
+            <a href="">Tags de Divisões</a>
+        </nav>
+    </header>
 
-    <ol type="A">
-        <li>Coisa</li>
-        <li>Coisa</li>
-        <li>Coisa</li>  
-    </ol>
+    <main>
+        <h1>Exemplos de utilização das Tags</h1>
 
-    <h3>Listas Não Ordenadas</h3>
+        <section id="listas">
+            <h2>Apresentação das Listas</h2>
 
-    <ul>
-        <li>Coisa</li>
-        <li>Coisa</li>
-        <li>Coisa</li>
-    </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni beatae maiores cumque modi blanditiis
+                architecto unde consectetur delectus iste non?</p>
 
-    <h3>Continuação das listas Ordenadas</h3>
+            <h3>Listas Ordenadas</h3>
 
-    <ol type="A" start=4>
-        <li>Outra Coisa</li>
-        <li>Outra Coisa</li>
-        <li>Outra Coisa</li>
-    </ol>
+            <ol type="A">
+                <li>Coisa</li>
+                <li>Coisa</li>
+                <li>Coisa</li>
+            </ol>
 
-    <h3>Listas de Definição</h3>
+            <h3>Listas Não Ordenadas</h3>
 
-    <dl>
-        <ol>
-            <li>
-                <dt>Café</dt>
-                <dd>Bebida, normalmente quente, forte, rica em cafeína, adoçada ou não</dd>
-            </li>
-            <li>
-                <dt>Água</dt>
-                <dd>Líquido primordial a vida. Sem água não há café</dd>
-            </li>
-        </ol>
-    </dl>
+            <ul>
+                <li>Coisa</li>
+                <li>Coisa</li>
+                <li>Coisa</li>
+            </ul>
 
-    <h3>Quebra de linha</h3>
+            <h3>Continuação das listas Ordenadas</h3>
 
-    <p>
-    Segurei minhas lágrimas<br>
-    Pois não queria demonstrar a emoção<br>
-    Já que estava ali só pra observar<br>
-    E aprender um pouco mais sobre a percepção<br>
-    Eles dizem que é impossível encontrar o amor<br>
-    Sem perder a razão<br>
-    Mas pra quem tem pensamento forte<br>
-    O impossível é só questão de opinião<br>
-    </p>
+            <ol type="A" start=4>
+                <li>Outra Coisa</li>
+                <li>Outra Coisa</li>
+                <li>Outra Coisa</li>
+            </ol>
 
-    <h3>Apresentação Tabelas</h2>
+            <h3>Listas de Definição</h3>
 
-    <table>
-        
-        <!-- título das colunas -->
-        <th>Coluna1</th>
-        <th>Coluna2</th>
-        <th>Coluna3</th>
-        <!-- informações da tabela -->
-        <tr>
-            <td>Info Linha1 Col1</td>
-            <td>Info Linha1 Col2</td>
-            <td>Info Linha1 Col3</td>
-        </tr>
+            <dl>
+                <ol>
+                    <li>
+                        <dt>Café</dt>
+                        <dd>Bebida, normalmente quente, forte, rica em cafeína, adoçada ou não</dd>
+                    </li>
+                    <li>
+                        <dt>Água</dt>
+                        <dd>Líquido primordial a vida. Sem água não há café</dd>
+                    </li>
+                </ol>
+            </dl>
+        </section>
 
-        <tr>
-            <td>Info Linha2 Col1</td>
-            <td>Info Linha 2 Col2</td>
-            <td>Info Linha 2 Col3</td>
-        </tr>
+        <section id="linha">
+            <h3>Quebra de linha</h3>
 
-        <tr>
-            <td colspan="2">Info linha3 Col1/2</td>
-            <td>Info linha3 Col3</td>
-        </tr>
+            <p>
+                Segurei minhas lágrimas<br>
+                Pois não queria demonstrar a emoção<br>
+                Já que estava ali só pra observar<br>
+                E aprender um pouco mais sobre a percepção<br>
+                Eles dizem que é impossível encontrar o amor<br>
+                Sem perder a razão<br>
+                Mas pra quem tem pensamento forte<br>
+                O impossível é só questão de opinião<br>
+            </p>
+        </section>
 
-        <tr>
-            <td rowspan="2">Info Linha4/5 Col1</td>
-            <td>Info Linha4 Col2</td>
-            <td>Info Linha4 Col3</td>
-        </tr>
+        <section id="tabelas">
+            <h3>Apresentação Tabelas</h2>
 
-        <tr>
-            <td>Info Linha 5 Col1</td>   
-            <td>Info Linha 5 Col2</td>     
-        </tr>
+                <table>
 
-    </table>
+                    <!-- título das colunas -->
+                    <th>Coluna1</th>
+                    <th>Coluna2</th>
+                    <th>Coluna3</th>
+                    <!-- informações da tabela -->
+                    <tr>
+                        <td>Info Linha1 Col1</td>
+                        <td>Info Linha1 Col2</td>
+                        <td>Info Linha1 Col3</td>
+                    </tr>
 
-    <h2>Apresentação Formulários</h2>       
+                    <tr>
+                        <td>Info Linha2 Col1</td>
+                        <td>Info Linha 2 Col2</td>
+                        <td>Info Linha 2 Col3</td>
+                    </tr>
 
-    <form>
+                    <tr>
+                        <td colspan="2">Info linha3 Col1/2</td>
+                        <td>Info linha3 Col3</td>
+                    </tr>
 
-        <label for="meuID">
-            Rótulo da informação a ser inserida
-        </label>
-        <br>
-        <input type="text" id="meuID">
-        
-        <br>
-        <label for="numero">
-            Rótulo para números
-        </label>
-        <br>    
-        <input type="number" id="numero" value="1000">
+                    <tr>
+                        <td rowspan="2">Info Linha4/5 Col1</td>
+                        <td>Info Linha4 Col2</td>
+                        <td>Info Linha4 Col3</td>
+                    </tr>
 
-        <br>
-        <label for="email">Rótulo para e-mail</label>
-        <br>
-        <input type="email" name="" id="email" placeholder="exemplo@gmail.com">
+                    <tr>
+                        <td>Info Linha 5 Col1</td>
+                        <td>Info Linha 5 Col2</td>
+                    </tr>
 
-        <br>
-        <label for="senha">Rótulo para Senha</label>
-        <br>
-        <input type="password" name="" id="senha">
+                </table>
+        </section>
 
-        <br>
-        <label for="">Exemplo Caixa de Seleção</label>
-        <br>
-        <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
-        <label for="f">Loja Departamento Feminino</label>
-        <br>
+        <section id="formularios">
+            <h2>Apresentação Formulários</h2>
 
-        <input type="checkbox" name="selecao" id="m" value="LojaMasculino">
-        <label for="m">Loja Departamento Masculino</label>
-        <br>
-        <label for="">Exemplo de seleção única</label>
-        <br>
-        <input type="radio" name="selecaoUnica" id="um" value="1">
-        <label for="um">Primeira opção</label>
-        <input type="radio" name="selecaoUnica" id="dois" value="2">
-        <label for="dois">Segunda opção</label>
+            <form>
 
-        <br>
-        <label for="testeSelect">Seleção por lista</label>
-        <br>
-        <select name="testeSelect" id="testeSelect">
-            <option value="1" disabled>Um</option>
-            <option value="2">Dois</option>
-            <option value="3">Três</option>
-        </select>
+                <label for="meuID">
+                    Rótulo da informação a ser inserida
+                </label>
+                <br>
+                <input type="text" id="meuID">
 
-        <br>
-        <textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
+                <br>
+                <label for="numero">
+                    Rótulo para números
+                </label>
+                <br>
+                <input type="number" id="numero" value="1000">
 
-    </form>
+                <br>
+                <label for="email">Rótulo para e-mail</label>
+                <br>
+                <input type="email" name="" id="email" placeholder="exemplo@gmail.com">
+
+                <br>
+                <label for="senha">Rótulo para Senha</label>
+                <br>
+                <input type="password" name="" id="senha">
+
+                <br>
+                <label for="">Exemplo Caixa de Seleção</label>
+                <br>
+                <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
+                <label for="f">Loja Departamento Feminino</label>
+                <br>
+
+                <input type="checkbox" name="selecao" id="m" value="LojaMasculino">
+                <label for="m">Loja Departamento Masculino</label>
+                <br>
+                <label for="">Exemplo de seleção única</label>
+                <br>
+                <input type="radio" name="selecaoUnica" id="um" value="1">
+                <label for="um">Primeira opção</label>
+                <input type="radio" name="selecaoUnica" id="dois" value="2">
+                <label for="dois">Segunda opção</label>
+
+                <br>
+                <label for="testeSelect">Seleção por lista</label>
+                <br>
+                <select name="testeSelect" id="testeSelect">
+                    <option value="1" disabled>Um</option>
+                    <option value="2">Dois</option>
+                    <option value="3">Três</option>
+                </select>
+
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
-</html> 
+
+</html>
