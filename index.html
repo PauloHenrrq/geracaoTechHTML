@@ -6,21 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
-        h1,
-        h2,
-        h3 {
-            font-family: sans-serif;
-        }
-
-        table,
-        th,
-        td,
-        tr,
-        form {
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
@@ -31,11 +17,11 @@
         <h1> Geração Tech - Desenvolvimento Front-end</h1>
 
         <nav>
-            <a href="listas">Tags de Listas</a>
-            <a href="linha">Tags de Quebra de Linha</a>
-            <a href="tabelas">Tags Tabelas</a>
-            <a href="formularios">Tags de Formulários</a>
-            <a href="">Tags de Divisões</a>
+            <a href="#listas">Tags de Listas</a>
+            <a href="#linha">Tags de Quebra de Linha</a>
+            <a href="#tabelas">Tags Tabelas</a>
+            <a href="#formularios">Tags de Formulários</a>
+            <a href="#divisoes">Tags de Divisões</a>
         </nav>
     </header>
 
@@ -177,7 +163,6 @@
                 <br>
                 <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
                 <label for="f">Loja Departamento Feminino</label>
-                <br>
 
                 <input type="checkbox" name="selecao" id="m" value="LojaMasculino">
                 <label for="m">Loja Departamento Masculino</label>
@@ -185,7 +170,7 @@
                 <label for="">Exemplo de seleção única</label>
                 <br>
                 <input type="radio" name="selecaoUnica" id="um" value="1">
-                <label for="um">Primeira opção</label>
+                <label for="um">Primeira opção</label><br>
                 <input type="radio" name="selecaoUnica" id="dois" value="2">
                 <label for="dois">Segunda opção</label>
 
@@ -202,6 +187,16 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
 
             </form>
+        </section>
+
+        <section id="divisoes">
+            <div class="div1">
+                <p>1</p>
+            </div>
+
+            <div class="div2">
+                <p>2</p>
+            </div>
         </section>
     </main>
 
