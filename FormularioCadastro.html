@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cadastro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-secondary">
+    <h1 class="text-center fs-2 text-light text-uppercase py-5 bg-dark">Formulário de Cadastro</h1>
+
+    <div class="d-flex container justify-content-center">
+        <form class="bg-white px-2 py-2 w-100">
+            <div class="mb-3">
+                <label for="emailad" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailad" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <h6>Turno:</h2>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="manha" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Manhã
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="tarde" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Tarde
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="noite" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Noite
+                    </label>
+                </div>
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Linguagem</option>
+                    <option value="C+">C+</option>
+                    <option value="Python">Python</option>
+                    <option value="JS">JavaScript</option>
+                </select>
+
+                <button type="button" class="btn btn-primary btn-lg my-2">Cadastrar</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
